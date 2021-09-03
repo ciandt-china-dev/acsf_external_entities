@@ -1,0 +1,21 @@
+uuid: 7ba84b4e-ef3c-49d3-905a-5cb5829b4927
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_created
+  module:
+    - datetime
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_created
+field_name: field_created
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: Created
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

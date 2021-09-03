@@ -1,0 +1,20 @@
+uuid: e28b6802-49b9-44ef-a550-7c37a7b12d2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_external_theme
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_external_theme
+field_name: field_external_theme
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: 'External Theme'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

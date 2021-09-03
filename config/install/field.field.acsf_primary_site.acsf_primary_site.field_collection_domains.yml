@@ -1,0 +1,20 @@
+uuid: 232152c3-5def-4215-a906-d9f22cde9b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_collection_domains
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_collection_domains
+field_name: field_collection_domains
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: 'Collection Domains'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

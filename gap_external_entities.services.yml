@@ -1,0 +1,4 @@
+services:
+  plugin.manager.acsf_external_entities.acsf_api_client:
+    class: Drupal\acsf_external_entities\ApiClient\AcsfApiClientManager
+    parent: default_plugin_manager

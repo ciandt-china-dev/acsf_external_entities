@@ -1,0 +1,18 @@
+uuid: 82bd208e-6062-4f07-9538-3bef83c86719
+langcode: en
+status: true
+dependencies:
+  module:
+    - external_entities
+id: acsf_primary_site.field_part_of_collection
+field_name: field_part_of_collection
+entity_type: acsf_primary_site
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

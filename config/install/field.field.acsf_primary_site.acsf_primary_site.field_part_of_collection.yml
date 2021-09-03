@@ -1,0 +1,24 @@
+uuid: a66199be-e795-4fa8-9478-418706b7a5cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_part_of_collection
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_part_of_collection
+field_name: field_part_of_collection
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: 'Part Of Collection'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

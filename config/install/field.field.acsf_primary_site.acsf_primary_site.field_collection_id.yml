@@ -1,0 +1,24 @@
+uuid: 03fcf8b6-5b9b-4dfe-ab4d-c41e01cfbf6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_collection_id
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_collection_id
+field_name: field_collection_id
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: 'Collection Id'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

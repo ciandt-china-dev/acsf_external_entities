@@ -1,0 +1,20 @@
+uuid: 096da244-9a7b-4652-8935-5c75ad6002b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_domains
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_domains
+field_name: field_domains
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: Domains
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

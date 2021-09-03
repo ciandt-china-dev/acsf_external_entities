@@ -1,0 +1,18 @@
+uuid: b46372a7-cdc3-4585-a39e-f811239126be
+langcode: en
+status: true
+dependencies:
+  module:
+    - external_entities
+id: acsf_primary_site.field_is_primary
+field_name: field_is_primary
+entity_type: acsf_primary_site
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

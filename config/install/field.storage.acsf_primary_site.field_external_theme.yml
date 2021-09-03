@@ -1,0 +1,21 @@
+uuid: 4903bde6-a950-41ae-b052-58ae3e34c89b
+langcode: en
+status: true
+dependencies:
+  module:
+    - external_entities
+id: acsf_primary_site.field_external_theme
+field_name: field_external_theme
+entity_type: acsf_primary_site
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

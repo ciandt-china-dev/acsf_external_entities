@@ -1,0 +1,21 @@
+uuid: a6f531a4-cbfa-42e5-81b3-86f90ad916ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - external_entities
+id: acsf_primary_site.field_domains
+field_name: field_domains
+entity_type: acsf_primary_site
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

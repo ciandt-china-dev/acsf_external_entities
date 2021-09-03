@@ -1,0 +1,20 @@
+uuid: 5b072462-1921-404c-8577-62ef3c030eea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_db_name
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_db_name
+field_name: field_db_name
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: 'Db Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

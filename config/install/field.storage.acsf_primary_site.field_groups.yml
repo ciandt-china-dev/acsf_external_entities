@@ -1,0 +1,20 @@
+uuid: 949f4d85-e267-46a1-9ae3-a5101d8fc0cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - external_entities
+id: acsf_primary_site.field_groups
+field_name: field_groups
+entity_type: acsf_primary_site
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

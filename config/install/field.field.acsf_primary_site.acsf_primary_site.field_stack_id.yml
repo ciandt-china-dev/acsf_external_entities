@@ -1,0 +1,24 @@
+uuid: bfc7b81e-a069-4994-8235-777aebc9287b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_stack_id
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_stack_id
+field_name: field_stack_id
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: 'Stack Id'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

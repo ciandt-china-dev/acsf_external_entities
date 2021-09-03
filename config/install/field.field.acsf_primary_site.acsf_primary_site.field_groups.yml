@@ -1,0 +1,24 @@
+uuid: b4edb518-6ed0-4e79-a439-f11adb20b2d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.acsf_primary_site.field_groups
+  module:
+    - external_entities
+id: acsf_primary_site.acsf_primary_site.field_groups
+field_name: field_groups
+entity_type: acsf_primary_site
+bundle: acsf_primary_site
+label: Groups
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

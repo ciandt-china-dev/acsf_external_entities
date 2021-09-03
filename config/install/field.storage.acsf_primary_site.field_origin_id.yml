@@ -1,0 +1,20 @@
+uuid: 0c7ac8c0-bca8-45d9-a5e8-bbd4dfd3d4ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - external_entities
+id: acsf_primary_site.field_origin_id
+field_name: field_origin_id
+entity_type: acsf_primary_site
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

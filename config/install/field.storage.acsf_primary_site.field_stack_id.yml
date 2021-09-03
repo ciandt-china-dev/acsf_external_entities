@@ -1,0 +1,20 @@
+uuid: c82ea01a-e304-45a8-8189-bf8279e3dc5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - external_entities
+id: acsf_primary_site.field_stack_id
+field_name: field_stack_id
+entity_type: acsf_primary_site
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
